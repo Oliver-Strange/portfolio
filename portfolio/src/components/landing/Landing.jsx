@@ -1,6 +1,6 @@
 import React from "react";
-import LandingHeader from "./header";
-import LandingMain from "./main";
+import LandingHeader from "./landingHeader";
+import LandingMain from "./landingMain";
 
 function LandingPage() {
   return (
