@@ -38,22 +38,42 @@ export default class Nav extends Component {
             </Link>
           </li>
           <li>
-            <a className="resume" href="https://resume.creddle.io/resume/a302jgqvzc7">
+            <a
+              className="resume"
+              href="https://resume.creddle.io/resume/a302jgqvzc7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
             </a>
           </li>
           <li>
-            <a className="github" href="https://github.com/Oliver-Strange">
+            <a
+              className="github"
+              href="https://github.com/Oliver-Strange"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>
           </li>
           <li>
-            <a className="linkedin" href="linkedin.com/in/preston-burton-447108186">
+            <a
+              className="linkedin"
+              href="linkedin.com/in/preston-burton-447108186"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LinkedIn
             </a>
           </li>
           <li>
-            <a className="angel" href="https://angel.co/preston-burton?public_profile=1">
+            <a
+              className="angel"
+              href="https://angel.co/preston-burton?public_profile=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Angel.co
             </a>
           </li>
