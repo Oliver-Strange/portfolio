@@ -12,26 +12,36 @@
         margin: 10px
         font-size: 5em
 
+        @media #{$mobile}
+            font-size: 3.5em
+            text-align: center
+
     h2 
         margin-top: 5%
         font-size: 4em
+
+        @media #{$mobile}
+            font-size: 3em
 
 .landingMain
     margin: 2%
 
     .info
-        height: 100vh
         margin-top: 2%
+
         h2
             font-size: 2.5em
             border-bottom: 1px solid white
             width: 20%
             margin-bottom: 2%
 
+            @media #{$mobile}
+                    width: 50%
+
         .bio
             display: flex
             flex-direction: column
-            height: 80%
+            height: 100%
             margin-bottom: 2%
 
             h2 
@@ -42,22 +52,36 @@
                 line-height: 1.2
                 width: 80%
                 margin: 0 auto
-                font-size: 1.5rem
+                font-size: 1.5em
 
                 p 
                     margin: 1% 0
+
+                    @media #{$mobile}
+                        font-size: .6em
+                        margin-top: 3%
+
+
+
 
         .statsDiv
             display: flex
             flex-direction: row
             justify-content: center
             align-content: space-between
-            height: 50%
+            height: 100%
             margin-bottom: 2%
+            margin-top: 2%
+
+            @media #{$mobile}
+                flex-direction: column
 
             .frontEnd
                 margin: 10px
                 width: 25%
+
+                @media #{$mobile}
+                    width: 90%
 
                 li 
                     margin: 1% 2%
@@ -70,6 +94,9 @@
                 margin: 10px
                 width: 25%
 
+                @media #{$mobile}
+                    width: 90%
+
                 li 
                     margin: 1% 2%
 
@@ -80,6 +107,9 @@
             .other
                 margin: 10px
                 width: 25%
+
+                @media #{$mobile}
+                    width: 90%
 
                 li 
                     margin: 1% 2%
@@ -92,6 +122,9 @@
                 margin: 10px
                 width: 25%
 
+                @media #{$mobile}
+                    width: 90%
+
                 li 
                     margin: 1% 2%
 
@@ -101,7 +134,7 @@
 
 
     .projects
-        height: 90%
+        height: 100%
         margin-top: 2%
 
         h2
@@ -109,9 +142,9 @@
             border-bottom: 1px solid white
             width: 20%
             margin-bottom: 2%
-            
-        h2.light-mode 
-            border-bottom: 1px solid black
+
+            @media #{$mobile}
+                    width: 70%
 
         .projectsDiv
             display: flex
@@ -126,12 +159,12 @@
 
                 a 
                     text-decoration: none
-                    font-size: 1.4rem
+                    font-size: 1.4em
                     margin-bottom: 1%
 
                 h4 
                     font-style: bold    
-                    font-size: 1.2rem
+                    font-size: 1.2em
                     margin: 1%
                     margin-left: 2%
                 
@@ -139,6 +172,10 @@
                     margin-left: 2%
                     width: 50%
                     line-height: 1.2
+
+                    @media #{$mobile}
+                    margin-top: 3%
+                    width: 90%
 
                 .screenshots
                     width: 100%
@@ -149,9 +186,3 @@
                     img 
                         width: 35%
                         margin: 1%
-
-
-            .project2
-
-            
-            .project3
