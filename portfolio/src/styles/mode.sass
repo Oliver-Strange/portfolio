@@ -13,9 +13,13 @@ $fourth-color-light: #6FB7EB
 $fifth-color-light: #FFFFFF
 
 
-$primary-font: Proza Libre, sans-serif
-$secondary-font: Proza Libre, serif
-$header-font: Rubik, sans-serif
+body 
+    background-color: $primary-color-dark
+    color: $secondary-color-dark
 
-$mobile: '(max-width : 500px)'
-$tablet: '(max-width : 800px)'
+body.light-mode
+    background-color: $primary-color-light
+    color: $secondary-color-light
+
+h2.light-mode 
+    border-bottom: 1px solid black
