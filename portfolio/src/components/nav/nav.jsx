@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import DarkModeToggle from "./darkmode";
 
 export default class Nav extends Component {
   scrollToTop = () => {
@@ -20,7 +21,7 @@ export default class Nav extends Component {
               offset={-70}
               duration={500}
             >
-              Info
+              Bio
             </Link>
           </li>
           <li>
@@ -35,6 +36,11 @@ export default class Nav extends Component {
             >
               Projects
             </Link>
+          </li>
+          <li>
+            <a className="resume" href="https://resume.creddle.io/resume/a302jgqvzc7">
+              Resume
+            </a>
           </li>
           <li>
             <a className="github" href="https://github.com/Oliver-Strange">
@@ -52,9 +58,7 @@ export default class Nav extends Component {
             </a>
           </li>
           <li className="mode">
-            <span role="img" aria-label="light bulb">
-              💡
-            </span>
+            <DarkModeToggle />
           </li>
         </ul>
       </div>

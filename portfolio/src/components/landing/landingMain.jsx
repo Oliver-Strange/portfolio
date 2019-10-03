@@ -6,21 +6,29 @@ function LandingMain() {
   return (
     <div className="landingMain">
       <div className="info">
-        <h2>Info:</h2>
         <div className="bio">
-          <div className="pastDiv">
-            <h3>Past:</h3>
-            <p className="past">Born, Traveled, Worked, Learned about self</p>
-          </div>
-
-          <div className="presentDiv">
-            <h3>Present:</h3>
-            <p className="present">Job, Lambda, Looking for</p>
-          </div>
-
-          <div className="futureDiv">
-            <h3>Future:</h3>
-            <p className="future">Want to learn, Want to go, Excitement</p>
+          <h2>Bio:</h2>
+          <div>
+            <p>
+              Kansan at heart, Oregonian now. I have spent the last fourteen years in the service
+              industry making people happy with my attitude and the great products that I create.
+              From all of that experience I have learned this about myself: I am happiest when I can
+              solve other's problems.
+            </p>
+            <p>
+              March 2019 I decided to take a big step in a new direction by attending Lambda
+              School's Full Stack Web Development course. I have always been drawn to computer
+              programming and have tried to teach myself in the past, but I knew that having real
+              instructors would make the process much easier. I will be done with Lambda's
+              curriculum November 2019 and looking back on what I have learned in a little less than
+              a year amazes me.
+            </p>
+            <p>
+              I do not consider myself a master in any respect, but I now know I have the qualities
+              of a good developer and great employee. Most importantly I have been taught to learn
+              new languages and paradigms at a fast pace. I am confident that my new abilities will
+              make my life and my future employer's life better.
+            </p>
           </div>
         </div>
 
@@ -98,17 +106,18 @@ function LandingMain() {
             <h4>Lambda School Capstone Project</h4>
             <h4 className="role">Role: Team Lead & Developer</h4>
             <p>
-              I followed real world production practices by: guiding my team through planning
-              feature canvases, reviewing and merging branches, and maintaining staging and
-              production environments.
+              A six week project where I guided my team through a real world development process. I
+              lead the planning and feature canvas design, assigned tasks via kanban board, reviewed
+              and merged code, held daily standup meetings, and weekly retrospectives.
+            </p>
+            <p>
+              As a developer, I designed and built out the back end node server, simultaneously
+              teaching a teammate nodejs, and helped role out components and styling in our React
+              front end. The biggest challenge was navigating the Google Developer pages to
+              understand Google Maps API and convert the ideas into a React application.
             </p>
           </div>
-          <div className="project2">
-            <h3>another project</h3>
-          </div>
-          <div className="project3">
-            <h3>another project</h3>
-          </div>
+          <p>Adding more projects soon!</p>
         </div>
       </div>
     </div>
