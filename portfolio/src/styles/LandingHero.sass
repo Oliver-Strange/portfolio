@@ -1,0 +1,45 @@
+.hero
+    margin: 2% 2% 0 2%
+    border: 2px solid white
+    border-radius: 7px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 87vh
+
+    h1 
+        margin: 10px
+        font-size: 5em
+        border-bottom: 2px solid white
+        text-align: center
+
+        @media #{$mobile}
+            font-size: 3.5em
+            text-align: center
+
+        @media #{$tablet}
+            font-size: 3em
+
+    h2 
+        margin-top: 1%
+        font-size: 3.5em
+
+        @media #{$mobile}
+            font-size: 3em
+            text-align: center
+
+        @media #{$tablet}
+            font-size: 2em
+    
+    .heroLinks
+        display: flex
+        flex-direction: row
+        width: 100%
+        justify-content: center
+
+        a 
+            text-decoration: none
+            color: green
+            font-size: 2em
+            margin: 1% 3% 
