@@ -11,17 +11,36 @@
     h1 
         margin: 10px
         font-size: 5em
+        border-bottom: 2px solid white
 
         @media #{$mobile}
             font-size: 3.5em
             text-align: center
 
+        @media #{$tablet}
+            font-size: 3em
+
     h2 
-        margin-top: 5%
-        font-size: 4em
+        margin-top: 1%
+        font-size: 3.5em
 
         @media #{$mobile}
             font-size: 3em
+
+        @media #{$tablet}
+            font-size: 2em
+    
+    .heroLinks
+        display: flex
+        flex-direction: row
+        width: 100%
+        justify-content: center
+
+        a 
+            text-decoration: none
+            color: green
+            font-size: 2em
+            margin: 1% 3% 
 
 .landingMain
     margin: 2%
@@ -37,32 +56,6 @@
 
             @media #{$mobile}
                     width: 50%
-
-        .bio
-            display: flex
-            flex-direction: column
-            height: 100%
-            margin-bottom: 2%
-
-            h2 
-                font-size: 2.5em
-                margin-bottom: 2%
-
-            div 
-                line-height: 1.2
-                width: 80%
-                margin: 0 auto
-                font-size: 1.5em
-
-                p 
-                    margin: 1% 0
-
-                    @media #{$mobile}
-                        font-size: .6em
-                        margin-top: 3%
-
-
-
 
         .statsDiv
             display: flex
