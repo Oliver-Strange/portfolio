@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn, faAngellist } from "@fortawesome/free-brands-svg-icons";
-import { faFile, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 function LandingHeader() {
   return (
@@ -27,7 +27,7 @@ function LandingHeader() {
         </a>
         <a
           className="linkedin"
-          href="linkedin.com/in/preston-burton-447108186"
+          href="https://linkedin.com/in/preston-burton-447108186"
           target="_blank"
           rel="noopener noreferrer"
         >
