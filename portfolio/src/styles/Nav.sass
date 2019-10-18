@@ -1,5 +1,7 @@
 .nav
     height: 3%
+    display: flex
+    justify-content: center
     ul
         display: flex
         flex-direction: row
@@ -7,43 +9,15 @@
         margin-top: 2%
 
         li 
-            .infoLink  
-                &:hover
-                    color: orange
-                    cursor: pointer
-
-                @media #{$mobile}
-                    display: none
-        
             .projectLink
                 &:hover
                     color: purple
                     cursor: pointer
-                
-                @media #{$mobile}
-                    display: none
-            
-            .resume
-                &:hover
-                    color: green
 
-            .github
-                &:hover
-                    color: orange
-
-            .linkedin
-                &:hover
-                    color: blue
-
-            .angel
-                &:hover
-                    color: tan
-            
             .light-bulb
                 &:hover
                     cursor: pointer
             
-            @media #{$mobile}
 
     a 
         text-decoration: none
