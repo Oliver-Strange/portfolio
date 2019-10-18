@@ -27,7 +27,7 @@ function LandingHeader() {
         </a>
         <a
           className="linkedin"
-          href="linkedin.com/in/preston-burton-447108186"
+          href="https://linkedin.com/in/preston-burton-447108186"
           target="_blank"
           rel="noopener noreferrer"
         >
