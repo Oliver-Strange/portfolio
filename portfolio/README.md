@@ -1,1 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio Site
+
+Made with React, Node-Sass, and Font Awesome 5
