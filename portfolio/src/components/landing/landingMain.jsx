@@ -14,16 +14,23 @@ function LandingMain() {
         <div className="projectsDiv">
           <div className="project">
             <div className="screenshots">
-              <a href="https://go-have.fun">
+              <a href="https://go-have.fun" target="_blank" rel="noopener noreferrer">
                 <img src={GoHaveFun} alt="go have fun website landing page" />
               </a>
-              <a href="https://go-have.fun/main">
+              <a href="https://go-have.fun/main" target="_blank" rel="noopener noreferrer">
                 <img src={GoMap} alt="go have fun website landing page" />
               </a>
             </div>
             <h5>
-              <a href="https://go-have.fun">GoHaveFun</a>
-              <a href="https://github.com/event-planner-lambda-labs">
+              <a href="https://go-have.fun" target="_blank" rel="noopener noreferrer">
+                GoHaveFun
+              </a>
+              <a
+                className="github"
+                href="https://github.com/event-planner-lambda-labs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </h5>
@@ -44,7 +51,11 @@ function LandingMain() {
 
           <div className="project">
             <div className="screenshots">
-              <a href="https://lambda-art-portfolio.github.io/ui-burton/index">
+              <a
+                href="https://lambda-art-portfolio.github.io/ui-burton/index"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={Art600x500} alt="Art-folio website landing page" />
               </a>
             </div>
@@ -52,10 +63,17 @@ function LandingMain() {
               <a
                 className="projectLink"
                 href="https://lambda-art-portfolio.github.io/ui-burton/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Art-folio
               </a>
-              <a href="https://github.com/lambda-art-portfolio/ui-burton">
+              <a
+                className="github"
+                href="https://github.com/lambda-art-portfolio/ui-burton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </h5>
@@ -69,13 +87,28 @@ function LandingMain() {
 
           <div className="project">
             <div className="screenshots">
-              <a href="https://dad-jokes-bw.herokuapp.com/">
+              <a
+                href="https://github.com/build-dad-jokes/back_end"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={DadJokesReadmeShot} alt="Dad Joke's Heroku url" />
               </a>
             </div>
             <h5>
-              <a href="https://dad-jokes-bw.herokuapp.com/">Dad Jokes Back End</a>
-              <a href="https://github.com/build-dad-jokes/back_end">
+              <a
+                href="https://dad-jokes-bw.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dad Jokes Back End
+              </a>
+              <a
+                href="https://github.com/build-dad-jokes/back_end"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </h5>

@@ -12,11 +12,11 @@
             margin-bottom: 2%
 
             @media #{$mobile}
-                    width: 70%
+                width: 100%
 
             @media #{$tablet}
-                    width: 70%
-                    text-align: center
+                width: 30%
+
 
         .projectsDiv
             display: flex
@@ -48,6 +48,7 @@
                 h5 
                     display: flex
                     flex-direction: row
+                    justify-content: space-evenly
 
                     .projectLink
                         margin-right: 10%
@@ -83,9 +84,6 @@
                         height: 100%
                         margin: 2%
 
-                        @media #{$mobile}
-                            width: 70%
-
         .more
             margin: 10% auto  
             text-align: center
@@ -104,10 +102,11 @@
 
             @media #{$mobile}
                 flex-direction: column
+                align-content: center
+
 
             @media #{$tablet}
-                flex-direction: column
-                align-items: center
+                flex-wrap: wrap
         
 
         .frontEnd
@@ -118,7 +117,7 @@
                 width: 90%
 
             @media #{$tablet}
-                width: 90%
+                width: 45%
 
             li 
                 margin: 1% 2%
@@ -135,7 +134,7 @@
                 width: 90%
 
             @media #{$tablet}
-                width: 90%
+                width: 45%
 
             li 
                 margin: 1% 2%
@@ -152,7 +151,8 @@
                 width: 90%
 
             @media #{$tablet}
-                width: 90%
+                width: 45%
+                margin-top: 5%
 
             li 
                 margin: 1% 2%
@@ -169,7 +169,8 @@
                 width: 90%
 
             @media #{$tablet}
-                width: 90%
+                width: 45%
+                margin-top: 5%
 
             li 
                 margin: 1% 2%
