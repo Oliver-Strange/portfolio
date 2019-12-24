@@ -50,6 +50,27 @@ function LandingMain() {
           </div>
 
           <div className="project">
+            <h5>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                Eugene RTC
+              </a>
+              <a
+                className="github"
+                href="https://github.com/Oliver-Strange/RealTimeChat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </h5>
+            <h4 className="role">Side Project</h4>
+            <p>React, Node, Socketio, Express, Knex</p>
+            <p>
+              Goal: Learn about websockets and Socketio, then build in persistence for user data.
+            </p>
+          </div>
+
+          <div className="project">
             <div className="screenshots">
               <a
                 href="https://lambda-art-portfolio.github.io/ui-burton/index"
