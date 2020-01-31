@@ -15,7 +15,7 @@ export default class Nav extends Component {
             <Link
               className="projectLink"
               activeClass="active"
-              to="projects"
+              to="allProjectsContainer"
               spy={true}
               smooth={true}
               offset={-70}
