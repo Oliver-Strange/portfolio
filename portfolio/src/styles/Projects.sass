@@ -29,11 +29,11 @@
 
         .project
             width: 45%
-            margin-bottom: 5%
+            margin-bottom: 3%
 
             @media #{$tablet}
                 width: 90%
-                margin-bottom: 15%
+                margin-bottom: 7%
 
             .screenshots
                 width: 100%
@@ -80,14 +80,20 @@
                 margin: 1% auto
 
                 ul 
-
+                    width: 100%
                     li
                         line-height: 1.5
+                        font-size: .9rem
+                        margin: 1% 0
 
 
                 .teamMembers
                     margin: 1% auto
                     width: 20%
+
+                    @media #{$tablet}
+                        font-size: 1rem
+                        width: 25%
 
                     p
                         border-bottom: 1px solid white
@@ -97,6 +103,8 @@
 
                         li
                             margin-left: 5%
+
+                            
 
     .devProjects
         display: flex

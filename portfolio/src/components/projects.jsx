@@ -48,13 +48,13 @@ function Projects() {
             <div className="teamMembers">
               <p>Team Members:</p>
               <ul>
-                <li>Alan</li>
-                <li>Daniel</li>
-                <li>Jennie</li>
-                <li>Jeris</li>
-                <li>Marcos</li>
-                <li>Triston</li>
-                <li>Wes</li>
+                <li>Alan Fischbach</li>
+                <li>Daniel Ajadi</li>
+                <li>Jennie Van</li>
+                <li>Jeris Manning</li>
+                <li>Marcos Lira</li>
+                <li>Triston Boudreau</li>
+                <li>Wes Jonke</li>
               </ul>
             </div>
           </div>
