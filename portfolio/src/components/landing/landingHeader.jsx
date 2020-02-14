@@ -6,7 +6,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 function LandingHeader() {
   return (
     <div className="hero">
-      <h1 className="myName">Preston Cort Burton</h1>
+      <h1 className="myName">Preston Burton</h1>
       <h2>Full Stack Developer</h2>
       <div className="heroLinks">
         <a
