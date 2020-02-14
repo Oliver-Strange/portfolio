@@ -37,19 +37,6 @@ function LandingMain() {
             </ul>
           </div>
 
-          <div className="other">
-            <h3>Other:</h3>
-            <ul>
-              <li>Notion</li>
-              <li>Slack</li>
-              <li>Zoom</li>
-              <li>Team Leadership</li>
-              <li>Kanban Boards</li>
-              <li>Agile & Scrum Development</li>
-              <li>Github</li>
-            </ul>
-          </div>
-
           <div className="unique">
             <h3>Unique skills:</h3>
             <ul>
