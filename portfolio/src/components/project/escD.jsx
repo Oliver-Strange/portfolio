@@ -8,10 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function EscD() {
   return (
     <div className="project">
-      <img className="screenshot" src={EscDPic} alt="Escape D game picture" />
-
-      <div className="projectContent">
-        <h3>EscD Game</h3>
+      <div className="titleLinks">
+        <h5>
+          <a href="https://esc-d.netlify.com/" target="_blank" rel="noopener noreferrer">
+            EscD
+          </a>
+        </h5>
         <h5>
           <a
             href="https://github.com/GameBuildWeek1"
@@ -22,9 +24,16 @@ function EscD() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </h5>
+      </div>
+      <img className="screenshot" src={EscDPic} alt="Escape D game picture" />
+      <div className="projectContent">
         <h4 className="role">Role: Front / Back Developer</h4>
-        <p>Four day project using React, HTML Canvas, Python, Django.</p>
-        <p>Focused on CS skills: mapping, searching, and linked lists.</p>
+        <div className="projectInfo">
+          <ul>
+            <li>Four day project using React, HTML Canvas, Python, Django.</li>
+            <li>Focused on CS skills: mapping, searching, and linked lists.</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

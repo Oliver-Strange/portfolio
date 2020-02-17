@@ -14,6 +14,10 @@
         justify-content: center
         flex-direction: row
 
+        .noLink 
+            color: green
+            font-size: 1.4em
+
         h5
             margin: 1% 5%
 
@@ -50,11 +54,12 @@
 
     
     .projectContent
-        margin-left: 55px
         position: absolute
+        margin-left: 2%
+        margin-top: 1%
         z-index: -1
-        transform: translate(1%, 50%)
-        -ms-transform: translate(1%, 50%) 
+        transform: translate(3%, 15%)
+        -ms-transform: translate(3%, 15%) 
         
         @media (min-width: 1250px)
             &:hover 
@@ -66,17 +71,16 @@
             -ms-transform: translate(0,0) 
 
 
-        .role
-            font-style: bold    
+        .role  
             font-size: 1.2em
-            margin: 1% auto 
+            margin-top: 2%
 
         .projectInfo
             display: flex
             flex-direction: row
             justify-content: center
-            width: 100%
-            margin: 1% auto
+            width: 80%
+
 
             ul
                 display: flex
