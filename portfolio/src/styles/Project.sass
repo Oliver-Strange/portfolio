@@ -14,6 +14,10 @@
         justify-content: center
         flex-direction: row
 
+        .noLink 
+            color: green
+            font-size: 1.4em
+
         h5
             margin: 1% 5%
 
@@ -24,17 +28,22 @@
 
     img
         margin: auto
-        width: 600px
-        height: 400px
-        max-width: 600px
-        max-height: 400px
+        width: 37vw
+        height: 45vh
+        max-width: 45vw
+        max-height: 50vh
         opacity: 1
         filter: grayscale(0%)
         transition: .5s ease
         backface-visibility: hidden
-        &:hover
-            opacity: 0.1
-            filter: grayscale(90%)
+        @media (min-width: 1250px)
+            &:hover
+                opacity: 0.1
+                filter: grayscale(90%)
+
+        @media #{$tablet}
+            width: 500px
+            height: 300px
 
         @media #{$mobile}
             width: 300px
@@ -42,28 +51,36 @@
             flex-direction: column
             justify-content: center
             align-items: center
+
     
     .projectContent
-        margin-left: 55px
         position: absolute
+        margin-left: 2%
+        margin-top: 1%
         z-index: -1
-        transform: translate(1%, 50%)
-        -ms-transform: translate(1%, 50%) 
+        transform: translate(3%, 15%)
+        -ms-transform: translate(3%, 15%) 
         
-        &:hover 
-            z-index: 2
+        @media (min-width: 1250px)
+            &:hover 
+                z-index: 2
+        
+        @media #{$tablet} 
+            position: relative
+            transform: translate(0,0)
+            -ms-transform: translate(0,0) 
 
-        .role
-            font-style: bold    
+
+        .role  
             font-size: 1.2em
-            margin: 1% auto 
+            margin-top: 2%
 
         .projectInfo
             display: flex
             flex-direction: row
             justify-content: center
-            width: 100%
-            margin: 1% auto
+            width: 80%
+
 
             ul
                 display: flex
