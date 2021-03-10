@@ -9,7 +9,7 @@ function merchDropper() {
     <div className="project">
       <div className="titleLinks">
         <h5>
-          <a href="https://www.merch-dropper.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://merchdropper.store/" target="_blank" rel="noopener noreferrer">
             Merch Dropper
           </a>
         </h5>
