@@ -25,7 +25,7 @@ function EscD() {
           </a>
         </h5>
       </div>
-      <img className="screenshot" src={EscDPic} alt="Escape D game picture" />
+      <img className="screenshot" src={EscDPic} alt="Escape D game" />
       <div className="projectContent">
         <h4 className="role">Role: Front / Back Developer</h4>
         <div className="projectInfo">

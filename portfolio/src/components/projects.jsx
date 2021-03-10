@@ -6,7 +6,6 @@ import {
   Artfolio,
   RtcSockets,
   DadJokes,
-  KeystoneJS,
   EscD
 } from "./project";
 
